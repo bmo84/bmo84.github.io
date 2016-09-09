@@ -88,6 +88,7 @@ a[href^="mailto:"]:hover {
 .social-links {
   font-size: 52px;
   padding: 10px;
+  color: #fdd835;
 }
 .skill-icon{
   font-size: 40px;
