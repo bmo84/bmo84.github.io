@@ -91,6 +91,9 @@ a[href^="mailto:"]:hover {
 }
 .skill-icon{
   font-size: 40px;
+  color: #fdd835;
+  padding: 10px;
+
 }
 
 /* Modified Colors for Bootstrap Navbar */
