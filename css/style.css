@@ -1,6 +1,7 @@
 body {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 22px;
+  background-color: #212121;
   color: #f5f5f5;
   padding-top: 50px;
 }
@@ -44,7 +45,7 @@ a[href^="mailto:"]:hover {
 }
 
 .about-container {
-  background-color: #000000;
+  background-color: #212121;
 
   padding-bottom: 50px;
   margin: 0 auto;
@@ -56,10 +57,11 @@ a[href^="mailto:"]:hover {
   color: #f5f5f5;
   font-weight: 700;
   text-shadow: 2px 2px #212121;
+  box-shadow: inset 0px -7px 16px -7px black;
 }
 
 .portfolio-container {
-  background-color: #90caf9;
+  background-color: #212121;
   background-image: url("https://i1.imgpile.com/2016/09/08/52d61d096061213715116db0e7a8c829.png");
 }
 
@@ -89,13 +91,10 @@ a[href^="mailto:"]:hover {
 .social-links {
   font-size: 52px;
   padding: 10px;
-  color: #fdd835;
 }
 .skill-icon{
   font-size: 40px;
   color: #fdd835;
-  padding: 10px;
-
 }
 
 /* Modified Colors for Bootstrap Navbar */
