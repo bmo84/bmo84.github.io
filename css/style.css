@@ -31,13 +31,6 @@ a[href^="mailto:"]:hover {
   max-width: 1200px;
 }
 
-.skill-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-
 /*Used to adjust anchor links with fixed top menu*/
 .anchor {
   padding-top: 50px;
