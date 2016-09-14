@@ -1,7 +1,6 @@
 body {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 22px;
-  background-color: #212121;
   color: #f5f5f5;
   padding-top: 50px;
 }
@@ -15,21 +14,14 @@ a:hover {
   color: #f5f5f5;
 }
 
-a[href^="mailto:"] {
-  color: #fdd835;
-}
-
-a[href^="mailto:"]:hover {
-  color: #f5f5f5;
-}
-
 .navbar-brand {
   font-size: 22px;
 }
 
 .nav-width {
-  max-width: 1200px;
+  max-width: 960px;
 }
+
 
 /*Used to adjust anchor links with fixed top menu*/
 .anchor {
@@ -38,8 +30,7 @@ a[href^="mailto:"]:hover {
 }
 
 .about-container {
-  background-color: #212121;
-
+  background-color: #000000;
   padding-bottom: 50px;
   margin: 0 auto;
   background-image: url("https://i2.imgpile.com/2016/09/08/8cdfbc5ae1812fe5ca0aadccb5806c88.jpg");
@@ -50,11 +41,10 @@ a[href^="mailto:"]:hover {
   color: #f5f5f5;
   font-weight: 700;
   text-shadow: 2px 2px #212121;
-  box-shadow: inset 0px -7px 16px -7px black;
 }
 
 .portfolio-container {
-  background-color: #212121;
+  background-color: #90caf9;
   background-image: url("https://i1.imgpile.com/2016/09/08/52d61d096061213715116db0e7a8c829.png");
 }
 
@@ -64,11 +54,10 @@ a[href^="mailto:"]:hover {
 }
 
 .thumbnail {
-  max-width: 350px;
+  max-width: 400px;
   margin: 0 auto;
   margin-bottom: 20px;
   border: none;
-  border-radius: 3px;
   background: transparent;
 }
 
@@ -84,10 +73,23 @@ a[href^="mailto:"]:hover {
 .social-links {
   font-size: 52px;
   padding: 10px;
+  color: #fdd835;
 }
 .skill-icon{
-  font-size: 40px;
+  font-size: 52px;
   color: #fdd835;
+}
+
+input, textarea{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #f5f5f5;
+  resize: none;
+}
+
+.btn{
+  font-size: 18px;
+  border: solid thin;
 }
 
 /* Modified Colors for Bootstrap Navbar */

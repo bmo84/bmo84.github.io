@@ -20,7 +20,7 @@
 
   <body>
 
-    <!--Navigation-->
+   <!--Navigation-->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid nav-width">
     <div class="navbar-header">
@@ -40,8 +40,7 @@
     </div>
   </div>
 </nav>
-
-
+</div><!--End Navigation-->
 
 <!--About Section-->
 <div class="anchor" id="about"></div>
@@ -53,56 +52,51 @@
       <p>My name is Brandon. I am a Senior student at <a href="http://park.edu/" target="_blank">Park University</a> seeking a degree in Computer Science and Information Systems. I am also pursuing the Full Stack Web Development certificate on <a href="https://www.freecodecamp.com/"
           target="_blank">Free Code Camp</a>. Coding has become a passion of mine in the past several years of college, and I aim to become a full fledged web developer. </p>
 
-    </div>
-    <div class="col-md-4">
-
-    </div>
+    </div><!--End Column-->
+  </div><!--End Row-->
     <div class="row">
       <div class="col-md-12">
-        <h2 class="page-header">Some of my Skills...</h2>
-        <i class="devicon-javascript-plain skill-icon"></i>
-        <i class="devicon-css3-plain-wordmark skill-icon"></i>
-        <i class="devicon-html5-plain-wordmark skill-icon"></i>
+        <h3 class="page-header">Some of my Skills</h3>
+        <i title="Javascript" class="devicon-javascript-plain skill-icon"></i>
+        <i title="CSS" class="devicon-css3-plain-wordmark skill-icon"></i>
+        <i title="HTML" class="devicon-html5-plain-wordmark skill-icon"></i>
 
-        <i class="devicon-jquery-plain-wordmark skill-icon"></i>
+        <i title="JQuery" class="devicon-jquery-plain-wordmark skill-icon"></i>
 
-        <i class="devicon-java-plain-wordmark skill-icon"></i>
-        <i class="devicon-cplusplus-plain skill-icon"></i>
-        <i class="devicon-linux-plain skill-icon"></i>
-      </div>
-    </div>
-  </div>
-
-
-</div>
-
-
-
-
-
+        <i title="Java" class="devicon-java-plain-wordmark skill-icon"></i>
+        <i title="C++" class="devicon-cplusplus-plain skill-icon"></i>
+        <i title="Linux based OS" class="devicon-linux-plain skill-icon"></i>
+      </div><!--End Column-->
+    </div><!--End Row-->
+  
+</div><!--End About Section/container-fluid-->
 
 
 <!--Portfolio Section-->
 <div class="anchor" id="portfolio"></div>
 <div class="container-fluid portfolio-container">
 
+
   <div class="row">
+
     <div class="col-md-12">
 
-      <h2 class="page-header">My Most Recent Work...</h2>
-    </div>
-  </div>
+      <h2 class="page-header text-center">My Most Recent Work</h2>
+    </div> <!--End first column-->
+  </div> <!--End Row-->
+  
+  
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <div class="thumbnail">
         <a href="http://codepen.io/brandon_m/full/kXOovm/" target="_blank"><img src="https://i.imgpile.com/2016/09/05/ab434719b9e23e7cf70ecdd1f3558e07.png" alt="Wikipedia Viewer" /></a>
         <div class="caption text-center">
           <h4>Wikipedia Viewer</h4>
         </div>
       </div>
-    </div>
+    </div> <!--End Column-->
 
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <div class="thumbnail">
         <a href="http://codepen.io/brandon_m/full/NAVqRG/" target="_blank"><img src="https://i0.imgpile.com/2016/09/05/ab0e55417a2daaf819512a4cb72f902f.png" alt="Weather App" /></a>
         <div class="caption text-center">
@@ -110,10 +104,11 @@
 
         </div>
       </div>
-    </div>
-  </div>
+    </div> <!--End Column-->
+  </div><!--End Row-->
+  
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <div class="thumbnail">
         <a href="http://codepen.io/brandon_m/full/grJOvR/" target="_blank"><img src="https://i1.imgpile.com/2016/09/11/0d479aae0623682306961da546557c58.png" alt="Quote Generator" /></a>
         <div class="caption text-center">
@@ -121,9 +116,9 @@
 
         </div>
       </div>
-    </div>
+    </div> <!--End Column-->
 
-    <div class="col-md-6 text-center">
+    <div class="col-sm-6 text-center">
       <div class="thumbnail">
         <a class="site-link" href="http://codepen.io/brandon_m/full/dXRrod/" target="_blank"><img src="https://i0.imgpile.com/2016/09/10/26e603f3bad7749804dea7fb88fb0fa2.png" alt="Etch-a-sketch" /></a>
         <div class="caption">
@@ -131,43 +126,68 @@
 
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
+    </div> <!--End Column-->
+  </div> <!--End Row-->
+</div> <!--End Portfolio Section-->
 
 
 <!--Contact Section-->
 <div class="anchor" id="contact"></div>
-<div id="contact" class="container-fluid contact-container">
+<div class="container-fluid contact-container">
   <div class="row">
     <div class="col-md-12 text-center">
 
-      <h2 class="page-header">Get a hold of me...</h2>
-    </div>
-  </div>
+      <h2 class="page-header">Get in touch</h2>
+    </div> <!--End Column-->
+  </div><!--End Row-->
+  
+  
   <div class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-sm-6">
+      <h3>Email me:</h3>
+    <form action="https://formspree.io/bmartinez1384@gmail.com" methot="POST">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Name"><br>
+      </div>
+      <div class="form-group">  
+        <input type="text" name="email" placeholder="Email">
+      </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Say hello" cols="20" rows="4"></textarea>
+      </div>
+      <div class="form-group">
+  <input class="btn btn-inverted" name="submit" type="submit" value="Send">
+      </div>
+</form> 
+    </div> <!--End Column-->
+    <div class="col-sm-6 text-center">
+     
+      <h3>
+        Or feel free to find me on the web:
+      </h3>
 
+<div class="row">
+  <div class="col-sm-12 text-center">
+
+            <a href="https://www.linkedin.com/in/brandon-martinez-548a30109" target="_blank">
+        <i class="fa fa-linkedin-square social-links" aria-hidden="true"></i>
+      </a>
+<a href="https://plus.google.com/101643464876988539543" target="_blank">
+        <i class="fa fa-google-plus-square social-links" aria-hidden="true"></i>
+      </a>
       <a href="https://github.com/bmo84" target="_blank">
-        <i class="fa fa-github social-links"></i>
+        <i class="fa fa-github social-links" aria-hidden="true"></i>
       </a>
       <a href="http://codepen.io/brandon_m/" target="_blank">
-        <i class="fa fa-codepen social-links"></i>
+        <i class="fa fa-codepen social-links" aria-hidden="true"></i>
       </a>
-      <a href="https://plus.google.com/101643464876988539543" target="_blank">
-        <i class="fa fa-google-plus-square social-links"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/brandon-martinez-548a30109" target="_blank">
-        <i class="fa fa-linkedin-square social-links"></i>
-      </a>
-      <a href="mailto:bmartinez1384@gmail.com" target="_blank">
-        <i class="fa fa-envelope-o social-links"></i>
-      </a>
+ 
+  </div> <!--End inner column-->
+      </div><!--End inner row-->
 
-    </div>
-  </div>
-</div>
+    </div><!--End Column-->
+  </div><!--End Row-->
+</div><!--End container-fluid/Contact Section-->
 
 
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
