@@ -3,7 +3,7 @@
 <head>
 
 <script>
-dataLayer = [];
+dataLayer = ['formSubmit': 'false'];
 </script>
  <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -93,7 +93,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="row">
         <div class="col-sm-6">
           <div class="thumbnail">
-            <a href="http://codepen.io/brandon_m/pen/dpYwEw" class="btn-project" target="_blank" onclick="dataLayer.push({'projectName': 'Twitch'});"><img src="https://i2.imgpile.com/2016/09/25/b841f7c2452e1bcd2acab0ad46835dda.png" alt="Twitch App" /></a>
+            <a href="http://codepen.io/brandon_m/pen/dpYwEw" class="btn-project" target="_blank" onclick="dataLayer.push({'event': '',
+            'projectName': 'Twitch'});"><img src="https://i2.imgpile.com/2016/09/25/b841f7c2452e1bcd2acab0ad46835dda.png" alt="Twitch App" /></a>
             <div class="caption text-center">
               <h4>Twitch User Tracker</h4>
             </div>
@@ -174,7 +175,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <textarea name="message" placeholder="Say hello" cols="20" rows="4"></textarea>
             </div>
             <div class="form-group">
-              <input class="btn btn-inverted btn-form" name="submit" type="submit" value="Send" onclick="dataLayer.push({'formSubmit': 'Submitted'});">
+              <input class="btn btn-inverted btn-form" name="submit" type="submit" value="Send" onclick="dataLayer.push({'formSubmit': 'true'});">
             </div>
           </form> 
         </div> <!--End Column-->
