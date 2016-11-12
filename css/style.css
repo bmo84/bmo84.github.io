@@ -96,6 +96,12 @@ input, textarea{
   border: solid thin;
 }
 
+.footer{
+  font-size: 10px;
+}
+
+
+
 /* Modified Colors for Bootstrap Navbar */
 
 .navbar-default {
